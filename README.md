@@ -6,7 +6,7 @@ Currently the system consists of 3 parts. The Slider, Pan Tilt Head, Cinematic T
 
 All parts of the system currently use the aruino based RF-Nano
 
-The repository currently holds four sketches since the Pan Tilt uses two boards with differing software one sketch for the Pan another for the Tilt
+The repository will holds four sketches since the Pan Tilt uses two boards with differing software one sketch for the Pan another for the Tilt
 
 The reason we are using two boards to drive the Pan Tilt is a work around for the AsselStepper library which does not allow for acceleration control on more than one stepper at a time
 
