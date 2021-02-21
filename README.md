@@ -16,14 +16,10 @@ The software makes use of the following libraries you will also need to install.
 
 AccelStepper.h    (To control the steppers)
 
-MultiStepper.h    (Part of AccelStepper)
-
 RF24.h            (For the radio wifi)
-
-nRF24L01.h        (Also for the radio)
-
-SPI.h             (Serial Peripheral Interface)
 
 AS5600.h          (For the AS5600 magnetic encoder used on the slider and Turntable)
 
 Nextion.h         (For control of the Nextion display)
+
+Nextion display is ready compiles in the SBslider.tft ready for upload onto the dispaly using a Micro SD card
