@@ -1,21 +1,14 @@
 
-
-
 //****Slider Code***** (see also Pan Tilt code thay work together over wifi link)
 /* Stepper Camera Slider with Nextion Touchscreen LCD Control wifi connectivity and Encoder flexability *\
 
   Created by Colin Henderson for the 3D printable DigitalBird 3 axis camera Slider available from Thingverse
 
   This code is in the public domain...
-  You can: copy it, use it, modify it, share it or cry over it as I have on many occasions!
-
-
-*/
+  You can: copy it, use it, modify it, share it or cry over it as I have on many occasions!   */
 
 
 //Wifi Setup
-#include <SPI.h>
-#include <nRF24L01.h>
 #include <RF24.h>
 RF24 radio(10, 9); // CE, CSN
 const byte address[][6] = {"0001", "0002"};
