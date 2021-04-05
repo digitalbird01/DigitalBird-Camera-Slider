@@ -25,8 +25,11 @@ In The arduino IDE go to <File> <Preferances> and in the box labeled "Additional
 The software makes use of the following libraries which must be installed into the Arduino IDE before uploading the software to the boards
 
 FastAccelStepper.h           (To control the steppers)
+
 esp-now.h                    (For the radio wifi)
+
 AS5600.h                     (For the AS5600 magnetic encoder used on the slider and Turntable)
+
 EasyNextionLibrary.h         (For control of the Nextion display)
 
 These librarys are included as zip files here in the Digital bird repository and should be in the folder you downloaded and unpacked the repository to.
