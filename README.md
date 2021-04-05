@@ -47,8 +47,19 @@ When you have identified the correct comport select it.
 Next we need to tell the Arduino IDE which type of board we are using to do this select <Tools> <Board> <ESP32> <ESP32 Dev Module>
   
 Know we are ready to install our software
-Go to <File> <Open> and navigate the downloaded Digital Bird repository to find the file named DBsliderESP32-01.ino
-With the file open in The Arduino IDE click <sketch> <Upload> from the menu bar and the software will be compiled with the libraries and uploaded to the ESP32. This may take a few minuits. Provided all is well and the libraries have all been correctly installed etc you should get the message "Upload complete" and the job is done. If not and you get a red compilor error read the error and if it is not obviouse what has wrong copy down the message and let me know.
+Go to <File> <Open> and navigate to the downloaded Digital Bird repository on your computer. Find the file named DBsliderESP32-01.ino and select it.
+With the file open in The Arduino IDE click <sketch> <Upload> from the menu bar and the software will be compiled with the libraries and uploaded to the ESP32. This may take a few minuits. Provided all is well and the libraries have all been correctly installed etc you should get the message "Upload complete" and the job is done. If not and you get a red compilor error read the error and if it is not obviouse what has gone wrong, copy down the message and let me know.
   
+  Know Plug in the Adafruit HUZZAH 32 Feather board. this board will be used to interface the Nection display with the rest of the system.
+  First we need to tell the Arduino IDE that we want to use a different board. Once again navigate to <Tools> <Board> <ESP32> <Adafruit ESP32 feather>
+  know find the software for the feather <sketch> <Upload> and find the filename DBNextionESP32-01.ino
+  once loaded select <sketch> <Upload> and the sketch should upload to the board with the message "upload complete" when done.
   
+  The last step is to install the user interface to the Nextion display. For this we do not need the Arduino iDE just an empty micro SD card.
+  copy the file titled DBNextionESP32.tft onto the micro SD card.
+  Place the card into the Nextion SD card slot and power on the device. The Nextion should find the file and automaticly install the software.
+  When complete remove the SD card and power down the display.
+  When we next power up the display you should see the Digital Bird Menu screen in all its glory.
+  
+  Job done
   
