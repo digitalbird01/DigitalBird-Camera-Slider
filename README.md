@@ -26,16 +26,14 @@ The software makes use of the following libraries which must be installed into t
 
 FastAccelStepper.h           (To control the steppers)
 
-esp-now.h                    (For the radio wifi)
-
 AS5600.h                     (For the AS5600 magnetic encoder used on the slider and Turntable)
 
 EasyNextionLibrary.h         (For control of the Nextion display)
 
 These librarys are included as zip files here in the Digital bird repository and should be in the folder you downloaded and unpacked the repository to.
 For each library there should be a zip file we dont need to unpack these files. 
-From the Arduino IDE Menu Bar at the top of the screen select <Sketch> <Include Library> <Add .ZIP library> and point this at each of the zipped libraries
-in your repository download. You only need to do this ones to install all the digital bird software.
+From the Arduino IDE Menu Bar at the top of the screen select <Sketch> <Include Library> <Add .ZIP library> and point this at each of the three zipped libraries one at a time.
+You only need to do this ones to install all the digital bird software.
 
 The next step is to install the slider software on the Espressif ESP32-DevKitC-32D board.
 First off all make sure there are no other power supplies attached to the board no batteries plugged into the slider or external supply. 
