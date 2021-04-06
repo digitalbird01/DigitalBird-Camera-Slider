@@ -21,6 +21,8 @@ To Build the Slider you will need the following:
 First download all the files as a zip The software was written using the Arduino IDE which can be downloaded free here: https://www.arduino.cc/en/software
 Because we are working with the ESP32 board and not an Arduino we need to install the drivers for our ESP32 boards into the Arduino IDE
 In The arduino IDE go to <File> <Preferances> and in the box labeled "Additional Boards Manager URL's" add the following link https://dl.espressif.com/dl/package_esp32_index.json
+Next select <tools><Boards><Boards Manager> and you should see a window apear with the board manager. In the dialog box type ESP32 and return.
+Bellow the dialoge box you should know see the listing for the ESP32 drivers. Select install and all the ESP32 drivers will be added to your system.
 
 The software makes use of the following libraries which must be installed into the Arduino IDE before uploading the software to the boards
 
