@@ -17,7 +17,7 @@ To Build the Controler you will need the following hardware
 To Build the Slider you will need the following:
 1) A slider kit from digital bird or all the componants included with the kit from your own sorces
 2) You will need the Digital Bird Main board and an ESP32 Dev board typicaly the Espressif ESP32-Dev AS5600 encoder and other parts (see kit specifications and board pinouts
-unlike the Arduino boards the ESP32 boards come with many different pinouts and pin spacings in a number of different form factors it is important to find one which matches the pinouts used on the digital Bird mother boards)
+unlike the Arduino boards the ESP32 boards come with many different pinouts and pin spacings in a number of different form factors it is important to find one which matches the pinouts used on the digital Bird mother boards see the JPG titled "ESP32 Dev Board form factor" if you are suppling your own board and note the position of the 5V and 3.2V pins on the board together with the number of pins)
 
 First download all the files as a zip The software was written using the Arduino IDE which can be downloaded free here: https://www.arduino.cc/en/software
 Because we are working with the ESP32 board and not an Arduino we need to install the drivers for our ESP32 boards into the Arduino IDE
