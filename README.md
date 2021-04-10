@@ -8,7 +8,7 @@ All parts of the system  know use the ESP32 processor
 
 To Build the Controler you will need the following hardware
 1) Adafruit HUZZAH 32 Feather ( no pins attached. This board is used along side the Nextion display inside the remote)
-2) 3.2" Nextion display ( not the enhanced version we dont need the extras)
+2) 2.8" Nextion display part No. NX3224T028 (Not the enhanced version we dont need the extras)
 3) Adafruit 5V mini boost (To bring the boards 3.3v up to 5v for the Nextion
 4) Switch harness and cables
 5) A 1200 mAh lipo battery with JST-PH 2.0mm plug
@@ -16,7 +16,8 @@ To Build the Controler you will need the following hardware
 
 To Build the Slider you will need the following:
 1) A slider kit from digital bird or all the componants included with the kit from your own sorces
-2) You will need the Digital Bird Main board and an ESP32 Dev board typicaly the Espressif ESP32-DevKitC-32D AS5600 encoder and other parts (see kit specifications)
+2) You will need the Digital Bird Main board and an ESP32 Dev board typicaly the Espressif ESP32-Dev AS5600 encoder and other parts (see kit specifications and board pinouts
+unlike the Arduino boards the ESP32 boards come with many different pinouts and pin spacings in a number of different form factors it is important to find one which matches the pinouts used on the digital Bird mother boards)
 
 First download all the files as a zip The software was written using the Arduino IDE which can be downloaded free here: https://www.arduino.cc/en/software
 Because we are working with the ESP32 board and not an Arduino we need to install the drivers for our ESP32 boards into the Arduino IDE
