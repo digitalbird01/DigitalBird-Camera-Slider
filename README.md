@@ -20,8 +20,8 @@ To Build the Slider you will need the following:
 unlike the Arduino boards the ESP32 boards come with many different pinouts and pin spacings in a number of different form factors it is important to find one which matches the pinouts used on the digital Bird mother boards see the JPG titled "ESP32 Dev Board form factor" if you are suppling your own board and note the position of the 5V and 3.2V pins on the board together with the number of pins)
 
 First download all the files as a zip The software was written using the Arduino IDE which can be downloaded free here: https://www.arduino.cc/en/software
-Because we are working with the ESP32 board and not an Arduino we need to install the drivers for our ESP32 boards into the Arduino IDE
-In The arduino IDE go to <File> <Preferances> and in the box labeled "Additional Boards Manager URL's" add the following link https://dl.espressif.com/dl/package_esp32_index.json
+First we need to install the drivers for our ESP32 boards into the Arduino IDE.
+Open Arduino IDE and go to <File> <Preferances> and in the box labeled "Additional Boards Manager URL's" add the following link https://dl.espressif.com/dl/package_esp32_index.json
 Next select <tools><Boards><Boards Manager> and you should see a window apear with the board manager. In the dialog box type ESP32 and return.
 Bellow the dialoge box you should know see the listing for the ESP32 drivers. Select install and all the ESP32 drivers will be added to your system.
 
