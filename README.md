@@ -7,3 +7,4 @@ Any of the parts can be used indevidually or together and are all controled from
 
 All parts of the system now use the ESP32 processor
 For detailed Instructions on how to install this software read the file titled "DigitalBird-Software Installation Guide.pdf"
+The first step is to click on the green "CODE" button and select <download ZIP> Unpack the zip to your computer but do not unpack the library zips included inside it.
