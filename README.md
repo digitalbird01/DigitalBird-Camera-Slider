@@ -6,7 +6,4 @@ Currently the system consists of 5 parts. The Slider, Pan Tilt Head, Cinematic T
 Any of the parts can be used indevidually or together and are all controled from the Single WIFI remote
 
 All parts of the system now use the ESP32 processor
-For detailed Instructions on how to install this software read the file titled "DigitalBird-Software Installation Guid.pdf"
-
-
-  
+For detailed Instructions on how to install this software read the file titled "DigitalBird-Software Installation Guide.pdf"
