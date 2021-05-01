@@ -41,7 +41,7 @@ String nextion_message;                   // variable to hold received message f
 int move_left = 0;                        // variable to detect move left on Nextion LCD
 int move_right = 0;                       // variable to confirm move right on Nextion LCD
 int start_cycle = 0;                      // variable to confirm start of travel between IN and OUT points
-long Home_position = 0;                    // Variable to st home position on slider
+long Home_position = 0;                   // Variable to st home position on slider
 int Ease_Value = 0;                       // Variable to collect Ease_Value from nextion screen value range 1-3
 int ease_time = 0;                        // Extra time allowed for ease in out calculation
 int move_finished = 1;                    // Used to check if move is completed
@@ -226,6 +226,12 @@ void loop() {
         break;
       case 7:
         myNex.writeStr("t5.txt", String(Tlps)); //update timlapse counter
+       if (Tlps ==0){
+       crono_seconds=10;
+       Crono_time=10;
+       SendNextionValues();
+       myNex.writeStr("t2.txt", String(crono_seconds));
+       }
         But_Com = 0;
         break;
     }
@@ -462,39 +468,39 @@ void receiveCallback(const uint8_t *macAddr, const uint8_t *incomingData,  int L
   //memcpy(&incomingValues, Data, sizeof(incomingValues));
   //Read all current Nextion values
 
-  Serial.println("INCOMING READINGS");
-  Serial.print("Ease: ");
-  Serial.print(incomingValues.Ease);
-  Serial.print("\nBounce: ");
-  Serial.print(incomingValues.Bo);
-  Serial.print("\nCronoTime: ");
-  Serial.print(incomingValues.Crono);
-  Serial.print("\nNextion Func: ");
-  Serial.print(incomingValues.Func);
-  Serial.print("\nTimelapse: ");
-  Serial.print(incomingValues.Tlps);
-  Serial.print("\nTlps Delay: ");
-  Serial.print(incomingValues.TlpsD);
-  Serial.print("\nIn point set");
-  Serial.print(incomingValues.In);
-  Serial.print("\nOut Point set: ");
-  Serial.print(incomingValues.Out);
-  Serial.print("\nNextion Func: ");
-  Serial.print(incomingValues.Func);
-  Serial.print("\nPlay: ");
-  Serial.print(incomingValues.Play);
-  Serial.print("\nBut_com: ");
-  Serial.print(incomingValues.ButCom);
-  Serial.print("\ninpress: ");
-  Serial.print(incomingValues.Inpress);
-  Serial.print("\noutpress: ");
-  Serial.print(incomingValues.Outpress);
-  Serial.print("\nSlider: ");
-  Serial.print(incomingValues.Slider);
-  Serial.print("\nPanTilt Head: ");
-  Serial.print(incomingValues.PT);
-  Serial.print("\nTurntable: ");
-  Serial.print(incomingValues.TurnT);
+//  Serial.println("INCOMING READINGS");
+//  Serial.print("Ease: ");
+//  Serial.print(incomingValues.Ease);
+//  Serial.print("\nBounce: ");
+//  Serial.print(incomingValues.Bo);
+//  Serial.print("\nCronoTime: ");
+//  Serial.print(incomingValues.Crono);
+//  Serial.print("\nNextion Func: ");
+//  Serial.print(incomingValues.Func);
+//  Serial.print("\nTimelapse: ");
+//  Serial.print(incomingValues.Tlps);
+//  Serial.print("\nTlps Delay: ");
+//  Serial.print(incomingValues.TlpsD);
+//  Serial.print("\nIn point set");
+//  Serial.print(incomingValues.In);
+//  Serial.print("\nOut Point set: ");
+//  Serial.print(incomingValues.Out);
+//  Serial.print("\nNextion Func: ");
+//  Serial.print(incomingValues.Func);
+//  Serial.print("\nPlay: ");
+//  Serial.print(incomingValues.Play);
+//  Serial.print("\nBut_com: ");
+//  Serial.print(incomingValues.ButCom);
+//  Serial.print("\ninpress: ");
+//  Serial.print(incomingValues.Inpress);
+//  Serial.print("\noutpress: ");
+//  Serial.print(incomingValues.Outpress);
+//  Serial.print("\nSlider: ");
+//  Serial.print(incomingValues.Slider);
+//  Serial.print("\nPanTilt Head: ");
+//  Serial.print(incomingValues.PT);
+//  Serial.print("\nTurntable: ");
+//  Serial.print(incomingValues.TurnT);
 
   Ease_Value = int(incomingValues.Ease);          // Acceloration control
   Bounce = int(incomingValues.Bo);                // Number of bounces
@@ -624,8 +630,8 @@ void SendNextionValues() {
   NextionValues.Inpress = inpress;            // Inpoint button state 0-2
   NextionValues.Outpress = outpress;          // Outpoint button state 0-2
   NextionValues.Slider = Slider;              // Slider present 0-1
-  NextionValues.Slider = PT;                  // Pan Tilt present 0-1
-  NextionValues.Slider = TurnT;               // Turntable present 0-1
+  NextionValues.PT = PT;                      // Pan Tilt present 0-1
+  NextionValues.TurnT = TurnT;                // Turntable present 0-1
 
 
   uint8_t broadcastAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
