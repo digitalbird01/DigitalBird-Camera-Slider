@@ -9,3 +9,8 @@ All parts of the system now use the ESP32 processor
 For detailed Instructions on how to install this software read the file titled "DigitalBird-Software Installation Guide.pdf"
 The first step is to click on the green "CODE" button and select download ZIP, Unpack the zip to your computer but do not unpack the library zips included inside it.
 Then follow the instruction in the aforementioned .pdf which will come down with the code
+
+WARNING Notice:
+If updating the code on the built device be sure to remove the battery from the device before you plug in the usb cable.
+Failure to do so may fry your ESP32 with to much power and also damage your PC usb port.
+I will not be held libal for either. This is generally the case with all project boards.
