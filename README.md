@@ -12,5 +12,5 @@ Then follow the instruction in the aforementioned .pdf which will come down with
 
 WARNING Notice:
 If updating the code on the built device be sure to remove the battery from the device before you plug in the usb cable.
-Failure to do so may fry your ESP32 with to much power and also damage your PC usb port.
-I will not be held libal for either. This is generally the case with all project boards.
+Failure too do so may fry your ESP32 with to much power and also damage your PC usb port.
+I will not be held liabal for either. This is generally the case with all project boards.
