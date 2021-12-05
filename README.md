@@ -9,6 +9,7 @@ All parts of the system now use the ESP32 processor
 For detailed Instructions on how to install this software read the file titled "DigitalBird-Software Installation Guide.pdf"
 The first step is to click on the green "CODE" button and select download ZIP, Unpack the zip to your computer but do not unpack the library zips included inside it.
 Then follow the instruction in the aforementioned .pdf which will come down with the code
+Note there are currently two different .ino files for the pan Tilt head. THe one ending in OT is for the original over the top model. The one ending B is for the newer balanced model. The only real differance is speed settings to compenate for the differing gear ratios on the different models.
 
 WARNING Notice:
 If updating the code on the built device be sure to remove the battery from the device before you plug in the usb cable.
