@@ -18,3 +18,8 @@ WARNING Notice:
 If updating the code on the built device be sure to remove the battery from the device before you plug in the usb cable.
 Failure too do so may fry your ESP32 with to much power and also damage your PC usb port.
 I will not be held liabal for either. This is generally the case with all project boards.
+
+Software Updates
+
+DBPanTilt2.51OT---       Patch to fix a problem with the PanTilt head comunicating properly with the slider during Bounce oporations.
+DBPanTilt-2.51B----      Patch to fix a problem with the PanTilt head comunicating properly with the slider during Bounce oporations.
