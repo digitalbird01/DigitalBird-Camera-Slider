@@ -21,5 +21,5 @@ I will not be held liabal for either. This is generally the case with all projec
 
 Software Updates
 
-DBPanTilt2.51OT---       Patch to fix a problem with the PanTilt head comunicating properly with the slider during Bounce oporations.
-DBPanTilt-2.51B----      Patch to fix a problem with the PanTilt head comunicating properly with the slider during Bounce oporations.
+DB_PanTilt_v2.51OT---       Patch to fix a problem with the PanTilt head comunicating properly with the slider during Bounce oporations.
+DB_PanTilt_v2.51B----       Patch to fix a problem with the PanTilt head comunicating properly with the slider during Bounce oporations.
