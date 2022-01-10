@@ -30,5 +30,8 @@ DB_PanTilt_v2.52_B.ino  ----       Patch to fix a problem with the Balanced PanT
 
 DBsliderESP32_v2.53.ino ----       Patch to fix Encoder key 2 being ignored on first run
                                    Update to fix bug with Sequencer loosing key info
+                                   
+DBNextionESP32-v2.53.ino ---       Update to fix bug with Sequencer loosing key info                             
+                                   
 
 DBNextionSEQ v2.01.tft -----       Key set button changed to green when set as previouse colours were to close on display
