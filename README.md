@@ -34,4 +34,4 @@ DBsliderESP32_v2.53.ino ----       Patch to fix Encoder key 2 being ignored on f
 DBNextionESP32-v2.53.ino ---       Update to fix bug with Sequencer loosing key info                             
                                    
 
-DBNextionSEQ v2.01.tft -----       Key set button changed to green when set as previouse colours were to close on display
+DBNextionSEQ v2.53.tft -----       Key set button changed to green when set as previouse colours were to close on display
