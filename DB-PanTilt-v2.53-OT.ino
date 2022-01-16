@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*Digital Bird PanTilt Head part of the Digital Bird Motion Control System Created by Colin Henderson 2021
+/*Digital Bird OT PanTilt Head part of the Digital Bird Motion Control System Created by Colin Henderson 2021
   This code is in the public domain...
   You can: copy it, use it, modify it, share it or just plain ignore it!
   Thx!
@@ -9,15 +9,12 @@
 #include <FastAccelStepper.h>
 #include "esp_task_wdt.h"
 #include <AS5600.h>
-#include "esp_timer.h"
 #include <esp_now.h>
-#include <trigger.h>
 #include <WiFi.h>
-#include <WiFiUdp.h>
 #include <Preferences.h>
-#include <Wire.h>
-//#include "Ps3Controller.h"
-#include "algorithm"
+
+
+
 
 // As in StepperDemo for Motor 1 on ESP32
 
@@ -48,16 +45,7 @@ FastAccelStepper *stepper3 = NULL;
 
 
 //Variables
-//Ps3 variables
 
-#define PAN_ACCELERATION 8000
-#define PAN_SPEED 2500
-
-#define TILT_ACCELERATION 8000
-#define TILT_SPEED 2500
-
-#define FOCUS_ACCELERATION 8000
-#define FOCUS_SPEED 4000
 
 unsigned long previousMillis = 0;
 const long debouncedelay = 100;
@@ -71,7 +59,7 @@ int pan_is_moving;
 int tilt_is_moving;
 int focus_is_moving;
 
-String DBFirmwareVersion = "frm V:2.00";      //Current firmware version
+String DBFirmwareVersion = "frm V:2.53";      //Current firmware version
 
 //*******************************************************************************************************************
 //Change these valus depending on which pan tilt head you havebuilt over the top or balanced
@@ -1274,19 +1262,20 @@ void SendNextionValues() {
   //NextionValues.Sld = Sld;                // Slider present 0-1
   //NextionValues.TT = TT;                  // Turntable present 0-1
   NextionValues.PT = PT;                    // Pan Tilt present 0-1 or 2 which Prevents cumulative error in bouncespeed and controls interconnective moves
-  NextionValues.s1 = s1;                    // Sequencer key speed
-  NextionValues.s2 = s2;                    // Sequencer key speed
-  NextionValues.s3 = s3;                    // Sequencer key speed
-  NextionValues.s4 = s4;                    // Sequencer key speed
-  NextionValues.s5 = s5;                    // Sequencer key speed
-  NextionValues.s6 = s6;                    // Sequencer key speed
-  NextionValues.P1 = P1;                    // k1 set button 0-2
-  NextionValues.P2 = P2;                    // k2 set button 0-2
-  NextionValues.P3 = P3;                    // k3 set button 0-2
-  NextionValues.P4 = P4;                    // k4 set button 0-2
-  NextionValues.P5 = P5;                    // k5 set button 0-2
-  NextionValues.P6 = P6;                    // k6 set button 0-2
-  NextionValues.a1 = a1;                    // Acceloration values
+  
+  NextionValues.s1 = s1;                    // Sequencer key speeds
+  NextionValues.s2 = s2;                    
+  NextionValues.s3 = s3;                    
+  NextionValues.s4 = s4;                    
+  NextionValues.s5 = s5;                    
+  NextionValues.s6 = s6;                    
+  NextionValues.P1 = P1;                    // Sequencer key button press 0-2
+  NextionValues.P2 = P2;                  
+  NextionValues.P3 = P3;                    
+  NextionValues.P4 = P4;                   
+  NextionValues.P5 = P5;                    
+  NextionValues.P6 = P6;                    
+  NextionValues.a1 = a1;                    // Sequencer key Acceloration values
   NextionValues.a2 = a2;
   NextionValues.a3 = a3;
   NextionValues.a4 = a4;
