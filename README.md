@@ -2,8 +2,8 @@
 Professional level DIY Camera slider
 This repository is for all the software used to drive the Digital bird camera motion control system.
 
-Currently the system consists of 5 parts. The Slider, Pan Tilt Head, Cinematic Turntable and Focus motor and the WIFI remote display
-Any of the parts can be used indevidually or together and are all controled from the Single WIFI remote.
+Currently the system consists of 6 parts. The Slider, Pan Tilt Head, Cinematic Turntable and Focus motor and the compact WIFI controller
+and the PTZplus WIFI Controller. Any of the parts can be used indevidually or together and are all controled from the Single WIFI remote.
 
 Version 2 software update adds a six key sequencer to the system together with a number of bug fixes.
 
@@ -20,6 +20,15 @@ Failure too do so may fry your ESP32 with to much power and also damage your PC 
 I will not be held liabal for either. This is generally the case with all project boards.
 
 Software Updates
+DB V3.00 ---                      All parts of the system need to be updated to take advantage of V3.00 so slider, PT head, WIFI controller ESP32 and Nextion display
+                                  This is a major update with a host of new features including.
+                                  PTZplus Live camera control for up to 3 Live cameras with up to six pose memory for each camera system. (requires PTZplus controller)
+                                  The system now saves all key positions to non volatile memory so even after the power is recycled the key points are stored.
+                                  Cleaner more efficient user interface
+                                  Additional menu functions for stop motion animation
+
+                                  
+
 
 DB_PanTilt-v2.53-OT.ino ---        Patch to fix a problem with the OverTop PanTilt head comunicating properly with the slider during Bounce oporations.
                                    Fixed Encoder key 2 being ignored on first run
