@@ -30,18 +30,3 @@ DB V3.00 ---                      All parts of the system need to be updated to 
 
                                   
 
-
-DB_PanTilt-v2.53-OT.ino ---        Patch to fix a problem with the OverTop PanTilt head comunicating properly with the slider during Bounce oporations.
-                                   Fixed Encoder key 2 being ignored on first run
-                                   Update to fix bug with Sequencer loosing key info
-
-DB_PanTilt-v2.53-B.ino  ----       Patch to fix a problem with the Balanced PanTilt head comunicating properly with the slider during Bounce oporations.
-                                   Fixed Encoder key 2 being ignored on first run.
-
-DBsliderESP32-v2.53.ino ----       Patch to fix Encoder key 2 being ignored on first run
-                                   Update to fix bug with Sequencer loosing key info
-                                   
-DBNextionESP32-v2.53.ino ---       Update to fix bug with Sequencer loosing key info                             
-                                   
-
-DBNextionSEQv2.53.tft -----       Key set button changed to green when set as previouse colours were to close on display
