@@ -27,15 +27,14 @@ I will not be held liabal for either. This is generally the case with all projec
 
 Software Updates 1st April 2022
 
-DB V3.00 ---                      All parts of the system need to be updated to take advantage of V3.00 so slider, PT head, WIFI controller ESP32 and Nextion display
+DB V3.00 ---  All parts of the system need to be updated to take advantage of V3.00 so slider, PT head, WIFI controller ESP32 and Nextion display
+              This is a major update with a host of new features including:
                                   
-                                  This is a major update with a host of new features including:
-                                  
-                                 * PTZplus Live camera control for up to 3 Live cameras with up to six pose memory for each camera system.
-                                   (requires PTZplus controller)
-                                  * The system now saves all key positions to non volatile memory so even after the power is recycled the key points are stored.
-                                  * Cleaner more efficient user interface
-                                  * Additional menu functions for stop motion animation
+         * PTZplus Live camera control for up to 3 Live cameras with up to six pose memory for each camera system.
+         (requires PTZplus controller)
+         * The system now saves all key positions to non volatile memory so even after the power is recycled the key points are stored.
+         * Cleaner more efficient user interface
+         * Additional menu functions for stop motion animation
 
                                   
 
