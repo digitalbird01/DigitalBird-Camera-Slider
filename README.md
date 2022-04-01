@@ -20,6 +20,7 @@ Failure too do so may fry your ESP32 with to much power and also damage your PC 
 I will not be held liabal for either. This is generally the case with all project boards.
 
 Software Updates
+
 DB V3.00 ---                      All parts of the system need to be updated to take advantage of V3.00 so slider, PT head, WIFI controller ESP32 and Nextion display
                                   This is a major update with a host of new features including.
                                   PTZplus Live camera control for up to 3 Live cameras with up to six pose memory for each camera system. (requires PTZplus controller)
