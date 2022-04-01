@@ -1,11 +1,17 @@
 # DigitalBird Camera motion control system
 Professional level DIY Camera slider
 This repository is for all the software used to drive the Digital bird camera motion control system.
+This projects aim is to provide the most feature rich DIY camera motion control system on the internet.
 
 Currently the system consists of 6 parts. The Slider, Pan Tilt Head, Cinematic Turntable and Focus motor and the compact WIFI controller
 and the PTZplus WIFI Controller. Any of the parts can be used indevidually or together and are all controled from the Single WIFI remote.
 
-Version 2 software update adds a six key sequencer to the system together with a number of bug fixes.
+The system offers the following functionality:
+* A-B straight moves with ease or ramp, Bounce, and timlapse control.
+* 6 Key sequencer control for more complex moves
+* Basic stop motion animation functions
+* 3 camera PTZplus control for realtime camera control with each camera system able to store 6 key poses
+* Unlimited programed camera functions at the same time as the 3 PTZplus cameras are being controled
 
 All parts of the system now use the ESP32 processor
 For detailed Instructions on how to install this software read the file titled "DigitalBird-Software Installation Guide.pdf"
