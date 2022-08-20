@@ -1,5 +1,5 @@
 # DigitalBird Camera motion control system
-Professional level DIY Camera slider
+Professional level DIY Camera Motion Control System
 This repository is for all the software used to drive the Digital bird camera motion control system.
 This projects aim is to provide the most feature rich DIY camera motion control system on the internet.
 
