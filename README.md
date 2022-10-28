@@ -24,7 +24,7 @@ If you are updating software from previose versions please note that you will ha
 WARNING Notice:
 If updating the code on the built device be sure to remove the battery from the device before you plug in the usb cable.
 Failure too do so may fry your ESP32 with to much power and also damage your PC usb port.
-I will not be held liabal for either. This is generally the case with all project boards.
+I will not be held liable for either. This is generally the case with all project boards.
 
 Software Updates 
 
