@@ -28,6 +28,11 @@ I will not be held liabal for either. This is generally the case with all projec
 
 Software Updates 
 
+DB V4.06 --- This update fixes some issues arround Bounce timing and Clr keys function the update is only for the Pan Tilt, Turntable & Slider
+              which must all be running the same version. The controler software remains at 4.00
+             
+
+
 DB V4.00 --- All parts of the system must be running the same version of the software
              
              * All parts of the system know recogize the mini jib
