@@ -3,6 +3,9 @@ Professional level DIY Camera Motion Control System
 This repository is for all the software used to drive the Digital bird camera motion control system.
 This projects aim is to provide the most feature rich DIY camera motion control system on the internet.
 
+All of the 3D printed parts can be found on the Thingiverse website and I Supply kits for all the non 3D Print parts
+including pre programed PCB main boards on the Digital Bird shoppify channel. No soldering or programming required.
+
 Currently the system consists of 7 parts. The Slider, Pan Tilt Head, Cinematic Turntable,Focus motor, compact WIFI controller
 PTZplus WIFI Controller and the mini jib. Any of the parts can be used indevidually or together and are all controled from the Single WIFI remote.
 
