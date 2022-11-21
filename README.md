@@ -31,6 +31,9 @@ I will not be held liable for either. This is generally the case with all projec
 
 Software Updates 
 
+DB V4.08 21/11/22 --- Bug fix causing timing problems and camera shutter release on Timlapse and Stop motion moves. This fix requires update to be performed on both Pan Tilt heads, The Slider and the Turntable. Controller software is not effected.
+
+
 DB V4.06 --- This update fixes some issues arround Bounce timing and Clr keys function the update is only for the Pan Tilt, Turntable & Slider
               which must all be running the same version 4.06. The controler software remains at 4.00.
              
