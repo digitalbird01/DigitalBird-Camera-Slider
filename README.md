@@ -14,7 +14,7 @@ The system offers the following functionality:
 * 6 Key sequencer control for more complex moves
 * Basic stop motion animation functions
 * 3 camera PTZplus control for realtime camera control with each camera system able to store 6 key poses
-* Unlimited programed camera functions at the same time as the 3 PTZplus cameras are being controled
+
 
 All parts of the system use the ESP32 processor
 For detailed Instructions on how to install this software read the file titled "DigitalBird-Software Installation Guide.pdf"
