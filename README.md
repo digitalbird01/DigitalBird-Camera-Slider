@@ -31,6 +31,9 @@ I will not be held liable for either. This is generally the case with all projec
 
 Software Updates 
 
+DB panTilt_B_4.19   This fixes a bug preventing the focus motor limits being set in either clockwise or anticlockwise orientation.
+
+
 DB V4.09 --- This update fixes some issues for the Mini Jib and the way it comumicates with the other devices. Not worth updating unless you have a Mini Jib.
 
 
