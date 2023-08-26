@@ -29,7 +29,8 @@ If updating the code on the built device be sure to remove the battery from the 
 Failure too do so may fry your ESP32 with to much power and also damage your PC usb port.
 I will not be held liable for either. This is generally the case with all project boards.
 
-Software Updates 
+Software Updates:
+
 Easy_Nextion_Library-DB.zip  This library has been customized for Digital Bird use. You must use this version of the library for Digital Bird system coding
 
 DB panTilt_B_4.19   This fixes a bug preventing the focus motor limits being set in either clockwise or anticlockwise orientation.
