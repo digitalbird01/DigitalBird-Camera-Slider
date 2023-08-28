@@ -3,10 +3,12 @@ Professional level DIY Camera Motion Control System
 This repository is for all the software used to drive the Digital bird camera motion control system.
 This projects aim is to provide the most feature rich DIY camera motion control system on the internet.
 
-All of the 3D printed parts can be found on the Thingiverse website and I Supply kits for all the non 3D Print parts
+All of the 3D printed parts can be found on the Printables or Thingiverse website and I Supply kits for all the non 3D Print parts
 including pre programed PCB main boards on the Digital Bird shoppify channel. No soldering or programming required.
 
-Currently the system consists of 7 parts. The Slider, Pan Tilt Head, Cinematic Turntable,Focus motor, compact WIFI controller
+Also check out the digital bird Youtube and Autodesk Instructables website for detailed build instructions.
+
+Currently the system consists of 7 parts. The Slider, a choice of 3 Pan Tilt Heads , Cinematic Turntable, Focus motor, compact WIFI controller
 PTZplus WIFI Controller and the mini jib. Any of the parts can be used indevidually or together and are all controled from the Single WIFI remote.
 
 The system offers the following functionality:
@@ -14,6 +16,7 @@ The system offers the following functionality:
 * 6 Key sequencer control for more complex moves
 * Basic stop motion animation functions
 * 3 camera PTZplus control for realtime camera control with each camera system able to store 6 key poses
+* The New DB3 PTZ head also supports VISCA over IP with support for OBS & vMix
 
 
 All parts of the system use the ESP32 processor
@@ -30,8 +33,10 @@ Failure too do so may fry your ESP32 with to much power and also damage your PC 
 I will not be held liable for either. This is generally the case with all project boards.
 
 Software Updates:
+DB3 VISCA pan Tilt head version 1.0 has been added. Note this requires you are running version 5 of the PTZplus WIFI controler software.
 
 Easy_Nextion_Library-DB.zip  This library has been customized for Digital Bird use. You must use this version of the library for Digital Bird system coding
+
 
 DB panTilt_B_4.19   This fixes a bug preventing the focus motor limits being set in either clockwise or anticlockwise orientation.
 
