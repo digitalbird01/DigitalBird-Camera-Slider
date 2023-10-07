@@ -33,6 +33,13 @@ Failure too do so may fry your ESP32 with to much power and also damage your PC 
 I will not be held liable for either. This is generally the case with all project boards.
 
 Software Updates:
+
+7th Oct 2023- All parts of the system have been updated to work with the most up to date version of the PTZplus WIFI controller and the new DB3 PTZ head
+This update adds the ability to control an additional 4th camera system together with 3 additional presets/Poses for each camera system. The updated DB3 software fixes a bug
+which intermitantly provided an incorrect IP adress to the VISCA base. In order to use this update you will have to update all parts of your system to the latest version.
+Be sure to use the libraries provided in the Digital Bird repository and not any updates provided by the original author's since it is not practical for me to change the Digital Bird system
+every time a library is updated.
+
 DB3 VISCA pan Tilt head version 1.0 has been added. Note this requires you are running version 5 of the PTZplus WIFI controler software.
 
 Easy_Nextion_Library-DB.zip  This library has been customized for Digital Bird use. You must use this version of the library for Digital Bird system coding
