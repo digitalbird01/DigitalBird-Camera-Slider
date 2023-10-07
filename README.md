@@ -40,44 +40,6 @@ which intermitantly provided an incorrect IP adress to the VISCA base. In order 
 Be sure to use the libraries provided in the Digital Bird repository and not any updates provided by the original author's since it is not practical for me to change the Digital Bird system
 every time a library is updated.
 
-DB3 VISCA pan Tilt head version 1.0 has been added. Note this requires you are running version 5 of the PTZplus WIFI controler software.
-
-Easy_Nextion_Library-DB.zip  This library has been customized for Digital Bird use. You must use this version of the library for Digital Bird system coding
-
-
-DB panTilt_B_4.19   This fixes a bug preventing the focus motor limits being set in either clockwise or anticlockwise orientation.
-
-
-DB V4.09 --- This update fixes some issues for the Mini Jib and the way it comumicates with the other devices. Not worth updating unless you have a Mini Jib.
-
-
-DB V4.08 21/11/22 --- Bug fix causing timing problems and camera shutter release on Timlapse and Stop motion moves. This fix requires update to be performed on both Pan Tilt heads, The Slider and the Turntable. Controller software is not effected.
-
-
-
-DB V4.06 --- This update fixes some issues arround Bounce timing and Clr keys function the update is only for the Pan Tilt, Turntable & Slider
-              which must all be running the same version 4.06. The controler software remains at 4.00.
-             
-
-
-DB V4.00 --- All parts of the system must be running the same version of the software
-             
-             * All parts of the system know recogize the mini jib
-             
-             * Some small bug fixes
-             
-             * A new clear key points button has been added to the home menu which will Zero all key positions which are otherwise stored even when the system is powered down.
-
-DB V3.00 ---  This is a major update with a host of new features including:
-                                
-         * PTZplus Live camera control for up to 3 Live cameras with up to six pose memory for each camera system.
-         (requires PTZplus controller)
-         
-         * The system now saves all key positions to non volatile memory so even after the power is recycled the key points are stored.
-         
-         * Cleaner more efficient user interface
-         
-         * Additional menu functions for stop motion animation
 
                                   
 
