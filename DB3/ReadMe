@@ -2,4 +2,4 @@ This update fixes a bug preventing the VISCA base from connecting with the netwo
 I have also updated the software in line with the new PTZplus WIFI controller update which now allows for controlling 4 camera systems
 and 9 position presets per camera system. The software has also been updated to allow for VISCA preset speed commands which can be altered from some wired PTZ controllers for example the PTZoptics Superjoy.
 The file labeled DB3_PTZ_v2.0.ino should be installed to the upper main board.
-The file labeled DB3_VISCA_Decoder is installed to the VISCA base. Remeber you must press the small button on the bottom of the base and keep it pressed in until the cable is inserted to place the board in program mode.
+The file labeled DB3_VISCA_Decoder.ino should be installed to the VISCA base. Remeber you must press the small button on the bottom of the base and keep it pressed in until the cable is inserted to place the board in program mode.
