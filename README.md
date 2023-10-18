@@ -9,7 +9,7 @@ Important Notes: Currently the Digital bird system will only work with the follo
 I have an issue concerning the encoders not working correctly with the latest esp32 board firmware. 
 Unfortunately Arduino IDE 2 and above board manager only offers us two versions of the esp32 board
 firmware both of which are causing a problem. Until I have uncovered and fixed the issues this notice
-will stay in place. You can only use the Arduino IDE 1.8.19 with the supplied libraries to compile and upload the code.
+will stay in place. You can only use the Arduino IDE 1.8.15 - 1.8.19 with the supplied libraries to compile and upload the code.
 
 
 # DigitalBird Camera motion control system
