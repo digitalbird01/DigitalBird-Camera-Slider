@@ -1,4 +1,15 @@
 # DigitalBird Camera motion control system
+
+Important Notes: Currently the Digital bird system will only work with the following setup:
+
+Arduino IDE 1.8.19
+esp32 expressive boards version 1.06
+Fastaccelstepper version 0.25
+
+I have an issue conserning the encoders not working correctly with the latest esp32 board firmware. Unfortunatly Arduino IDE 2 and above board manager only offers
+us two versions of the esp32 board firmware both of which are causing a problem. Until I have uncovered and fixed the issues this notice will stay in place. You can onlu use the Arduino IDE 1.8.19
+with the supplied libraries to compile and upload the code.
+
 Professional level DIY Camera Motion Control System
 This repository is for all the software used to drive the Digital bird camera motion control system.
 This projects aim is to provide the most feature rich DIY camera motion control system on the internet.
