@@ -3,7 +3,7 @@
 Important Notes: Currently the Digital bird system will only work with the following setup:
 
 * Arduino IDE 1.8.15  to Arduino IDE 1.8.19
-* esp32 expressive board firmware version 1.06 (accecable from the board manager)
+* esp32 expressive board firmware version 1.06 (accessable from the board manager)
 * Fastaccelstepper version 0.25
 
 I have an issue conserning the encoders not working correctly with the latest esp32 board firmware. Unfortunatly Arduino IDE 2 and above board manager only offers
