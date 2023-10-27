@@ -9,5 +9,6 @@ Hense the reason there are three Nextion files here
 
 The ESP32 file here is for the ESP32 feather remember to set the correct board in the board manager.
 
-The Nextion file *.tft needs to be copied to a Max32GB SD card. Insert the card into your nextion andswitch on
-the update is automatic. Note only one *.tft file can be on the SD card. Note also it must be formated to FAT32
+The Nextion file *.tft needs to be copied to a 32GB or lower SD card. Insert the card into your nextion and switch on
+the update is automatic. Note only one *.tft file can be on the SD card. The SD card must be formated to FAT32
+FAT32 can only format up to 32GB
