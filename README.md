@@ -40,7 +40,7 @@ I will not be held liable for either. This is generally the case with all projec
 # Software Updates:
 Update Notes v6.00: 23rd Oct 2023
 
-  1) Now supports up to 4 WIFI camera systems rather than the original 3.
+  1) Now supports up to four WIFI camera systems rather than the original three.
   2) Also know supports 9 pose/preset positions over the original 6. 16 are available for wired VISCA control
   3) Two poses 15 & 16 have been reserved in order to allow triggering of the current A-B and sequencer setups with or withought bounce.
   these can also be triggered from VISCA by calling pose 15 or 16 respectivly.
