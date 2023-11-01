@@ -50,7 +50,7 @@ Update Notes v6.00: 23rd Oct 2023
   a result of the added functionality so I will not list.
   6)ESP32 board updates were giving issues with the encoders this has know been fixed and we are know able to compile the code with Arduino IDE 2.*
   7)The application also now uses the currently current! FastAccelStepper library.
-  8) Firmware numbering has been updated across the hole system. To keep things simple all parts of the system must be running the first part of the version number so this update is 6.
+  8) Firmware numbering has been updated across the system. To keep things simple all parts of the system must be running the first part of the version number so this update is 6.
   If indevidual parts of the system require an update which does not effect the other parts this can happen as here v6.02. The first number "6" will only increment if the update effect all parts of the system
   and it will increment on all firmware parts. So in the case of this update all parts of the system must be updated to v6.** stay compatable.
                                   
