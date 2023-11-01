@@ -44,12 +44,12 @@ Update Notes v6.00: 23rd Oct 2023
   2) Also know supports 9 pose/preset positions over the original 6. 16 are available for wired VISCA control
   3) Two poses 15 & 16 have been reserved in order to allow triggering of the current A-B and sequencer setups with or withought bounce.
   these can also be triggered from VISCA by calling pose 15 or 16 respectivly.
-  4)The setup menu also now alows you to set a delay at the start and end of bounce moves. This also sets a recording pause at the end of A-B moves
+  4) The setup menu also now alows you to set a delay at the start and end of bounce moves. This also sets a recording pause at the end of A-B moves
   before the system returns to its home position. The pause can be 1-10 seconds. This setting is stored in memorry and recalled on reboot.
   5) A number of small bugs have been fixed along the way however I am unsure which of these were in the last version and which were required as
   a result of the added functionality so I will not list.
-  6)ESP32 board updates were giving issues with the encoders this has know been fixed and we are know able to compile the code with Arduino IDE 2.*
-  7)The application also now uses the currently current! FastAccelStepper library.
+  6) ESP32 board updates were giving issues with the encoders this has know been fixed and we are know able to compile the code with Arduino IDE 2.*
+  7) The application also now uses the currently current! FastAccelStepper library.
   8) Firmware numbering has been updated across the system. To keep things simple all parts of the system must be running the first part of the version number so this update is 6.
   If indevidual parts of the system require an update which does not effect the other parts this can happen as here v6.02. The first number "6" will only increment if the update effect all parts of the system
   and it will increment on all firmware parts. So in the case of this update all parts of the system must be updated to v6.** stay compatable.
