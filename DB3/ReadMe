@@ -1,4 +1,10 @@
+
 # Software Updates:
+Update Notes v6.01: 6th Nov 2023
+1. Fixes a bug which caused all WIFI PTZ heads to adopt the same ID as the last head turned on.
+2. Added a way for Focus, Zoom, and Tilt limits function to be triggered from VISCA using preset 100. Preset 100 needs to be triggered three times to
+complete the function.
+
 Update Notes v6.00: 23rd Oct 2023
 
   1) Now supports up to 4 WIFI camera systems rather than the original 3.
