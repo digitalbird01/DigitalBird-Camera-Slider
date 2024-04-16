@@ -1,3 +1,4 @@
+Latest Update 6.02: Fixed a bug where ease values were not updating correctly
 There are three possible 2.8" Nextion displays that can be used by the system BASIC, DISCOVERY, ENHANCED
 Thay can be identified from the colour of the PCB board on the display.
 Blue-Basic
