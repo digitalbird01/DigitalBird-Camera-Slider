@@ -1,4 +1,5 @@
-Latest Update 6.02: Fixed a bug where ease values were not updating correctly
+Update 6.03 Fixes a bug where shutter speed in tim-lapse was not being respected
+Update 6.02: Fixed a bug where ease values were not updating correctly
 
 General:
 There are three possible 2.8" Nextion displays that can be used by the system BASIC, DISCOVERY, ENHANCED
