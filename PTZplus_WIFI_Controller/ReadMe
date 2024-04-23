@@ -1,4 +1,5 @@
-Latest update 6.04: Fixes a bug where Ease values were not being updated correctly
+update 6.05 Fixed a bug where shutter speed was not being respected in time-lapse mode
+update 6.04: Fixes a bug where Ease values were not being updated correctly
 update 6.03 adds a new funtion "All To Pose" to the PTZ menu. This allows you to have all cameras move to the current pose/preset number at the same time with one button press.
 
 
