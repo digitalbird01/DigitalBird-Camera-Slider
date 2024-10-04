@@ -11,7 +11,7 @@ This projects aim is to provide the most feature rich DIY camera motion control 
 All of the 3D printed parts can be found on the Printables or Thingiverse website and I Supply kits for all the non 3D Print parts
 including pre programed PCB main boards on the Digital Bird shoppify channel. No soldering or programming required.
 
-Also check out the digital bird Youtube and Autodesk Instructables website for detailed build instructions.
+Also check out the Digital Bird Youtube and Autodesk Instructables website for detailed build instructions.
 
 Currently the system consists of 7 parts. The Slider, a choice of 3 Pan Tilt Heads , Cinematic Turntable, Focus motor, compact WIFI controller
 PTZplus WIFI Controller and the mini jib. Any of the parts can be used indevidually or together and are all controled from the Single WIFI remote.
