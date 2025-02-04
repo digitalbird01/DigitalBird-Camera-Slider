@@ -38,6 +38,11 @@ Failure too do so may fry your ESP32 with to much power and also damage your PC 
 I will not be held liable for either. This is generally the case with all project boards.
 
 # Software Updates:
+
+IMPORTANT NOTE: When installing the esp32 boards through the board manager be sure to install version 2.011 (Not the latest update) I canot keep up with all the latest library updates so remember also to use the library's provided here not the latest updates which may not work with the system.
+
+
+
 Update Notes v6.00: 23rd Oct 2023
 
   1) Now supports up to four WIFI camera systems rather than the original three.
