@@ -1,4 +1,7 @@
 # Software Updates:
+
+Update Notes v6.03: March 2025
+1) Updated speed control from PTZplus controler in line with other PTZ heads
 Update Notes v6.01: 6th Nov 2023
 1. Fixes a bug which caused all WIFI PTZ heads to adopt the same ID as the last head turned on.
 2. Added a way for Focus, Zoom, and Tilt limits function to be triggered from VISCA using preset 100. Preset 100 needs to be triggered three times to
