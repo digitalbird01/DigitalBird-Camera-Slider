@@ -1,5 +1,6 @@
  Version 7.00
   If you are updating from versions earlier than v7.0 You must update all parts of the system to Version 7.** to use this update.
+Your nextion display must also be updated with v7.0 .tft file
 
  Update 7.0 April 2025
   1) Added a beta version of Auto Focus/zoom Limits which has the system establish the limits automaticly.
@@ -22,6 +23,7 @@ Orange-Discovery
 Black- Enhanced
 
 For our purposes they all work the same but the firmware requires you install for the specific model
-Hense the reason there are three Nextion files here
+hense the reason there are three Nextion files here. Install the correct one for your display by copying this file to a micro SD card.
+Note: only one .tft file should be on the card. Somtimes it takes two attempts to update the software!
 
 
