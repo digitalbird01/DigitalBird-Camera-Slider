@@ -8,7 +8,7 @@ Professional level DIY Camera Motion Control System
 This repository is for all the software used to drive the Digital bird camera motion control system.
 This projects aim is to provide the most feature rich DIY camera motion control system on the internet.
 
-All of the 3D printed parts can be found on the Printables or Thingiverse website and I Supply kits for all the non 3D Print parts
+All of the 3D printed parts can be found on the Printables Thingiverse and Bamboo websites and I Supply kits for all the non 3D Print parts
 including pre programed PCB main boards on the Digital Bird shoppify channel. No soldering or programming required.
 
 Also check out the Digital Bird Youtube and Autodesk Instructables website for detailed build instructions.
@@ -20,7 +20,7 @@ The system offers the following functionality:
 * A-B straight moves with ease or ramp, bounce, and timlapse control.
 * 6 Key sequencer control for more complex moves
 * Basic stop motion animation functions
-* 3 camera PTZplus control for realtime camera control with each camera system able to store 6 key poses
+* 3 camera PTZplus control for realtime camera control with each camera system able to store 9 key poses
 * The New DB3 PTZ head also supports VISCA over IP with support for OBS & vMix
 
 
