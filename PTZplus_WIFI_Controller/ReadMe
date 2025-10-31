@@ -1,3 +1,15 @@
+ Version 7.00
+  If you are updating from versions earlier than v7.0 You must update all parts of the system to Version 7.** to use this update.
+
+ Update 7.0 April 2025
+  1) Added a beta version of Auto Focus/zoom Limits which has the system establish the limits automaticly.
+  Note this function is still in beta testing but shows promiss. If it does not work for you the previouse manual method is still available.
+  In order to use the function the PTZplus WIFI controller must also be updated to version 7
+  2)The system also know establishes a home position for both Focus and zoom (If available) on startup.
+  3)Added a home position calibration tool accesable from the setup menu on the Nextion display. Since different batches of magnet and Reed switch
+  demand differing offset values from the magnet this allows you to ensure your camera is level and the pan is alligned over the base correctly
+  at startup.This tool will probably only ever be required to run once at the beginning of the heads life.
+
 update 6.05 Fixed a bug where shutter speed was not being respected in time-lapse mode
 update 6.04: Fixes a bug where Ease values were not being updated correctly
 update 6.03 adds a new funtion "All To Pose" to the PTZ menu. This allows you to have all cameras move to the current pose/preset number at the same time with one button press.
