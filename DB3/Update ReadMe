@@ -1,4 +1,12 @@
- Update v6.06 10th Jan 2024
+
+Update 7.05 Oct 2025
+  1) Updated  PTZ speed ranges to provide more flexability across the range. Note: You must be using V 7.* of the WIFI controller software to use this code
+Update 7.0 April 2025
+  1) Added a beta version of Auto Focus/zoom Limits which has the system establish the limits automaticly.
+  Note this function is still in beta testing but shows promiss. If it does not work for you the previouse manual method is still available.
+  In order to use the function the PTZplus WIFI controller must also be updated to version 7
+  The system also know establishes a home position for both Focus and zoom (If available) on startup.
+Update v6.06 10th Jan 2024
   1) Changed the way the speed is scaled from the ajustment knob on the controller when the head is being controlled using the joysticks. The knob now changes the scaller speed of the head
   as well as the acceloration factor allowing for very slow moves when filming or faster moves when setting up preset poses.
  
