@@ -41,7 +41,11 @@ I will not be held liable for either. This is generally the case with all projec
 
 IMPORTANT NOTE: When installing the esp32 boards through the board manager be sure to install version 2.011 (Not the latest update) I canot keep up with all the latest library updates so remember also to use the library's provided here not the latest updates which may not work with the system.
 
-
+Update Notes v7.05: 23rd Oct 2025 for DB3 head
+1) Added the ability to auto find the zoom/Focus limits at startup for any given lense
+2) Added a function in the setup menu to fine ajust the startup position
+3) Added a half press to focus function from the button on top of the large joystick. Note this only works with the latest main board update and only in PTZ mode.
+4) Refined the speed control on the WIFI controller to give a wider veriaty of speeds slowest to fastest have all been changed
 
 Update Notes v6.00: 23rd Oct 2023
 
