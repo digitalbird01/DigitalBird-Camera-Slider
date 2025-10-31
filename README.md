@@ -29,8 +29,8 @@ For detailed Instructions on how to install this software read the file titled "
 The first step is to click on the green "CODE" button and select download ZIP, Unpack the zip to your computer but do not unpack the library zips included inside it.
 Then follow the instruction in the aforementioned .pdf which will come down with the code
 
-Note there are currently two different .ino files for the pan Tilt head. The one ending in OT should be used for the original over the top model. The one ending B is for the newer balanced model. The only real differance is speed settings to compensate for the differing gear ratios on the different models.
-If you are updating software from previose versions please note that you will have to update all parts of the system at the same time in order for them to stay compatable.
+
+If you are updating software from previose versions please note that you may have to update all parts of the system at the same time in order for them to stay compatable.
 
 WARNING Notice:
 If updating the code on the built device be sure to remove the battery from the device before you plug in the usb cable.
